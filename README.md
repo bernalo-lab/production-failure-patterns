@@ -43,8 +43,8 @@ These patterns appear repeatedly across:
 
 ## Current Categories
 
-1. Application Failure Patterns
-See the list of 'Application Failure Patterns' here
+1. # Application Failure Patterns
+See available 'Application Failure Patterns' <a href="../categories/application/application.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">here</a>
 
 Application Failure Patterns occur within the behaviour or runtime logic of services and applications.
 
