@@ -58,7 +58,7 @@ This cascading effect can rapidly transform a localized issue into a full system
 
 ## Description
 
-<a href="../../patterns/application/dependency-cascade.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**Thread Pool Exhaustion** </a> occurs when all available worker threads in a service become occupied, preventing new requests from being processed.
+<a href="../../patterns/application/thread-pool-exhaustion.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**Thread Pool Exhaustion** </a> occurs when all available worker threads in a service become occupied, preventing new requests from being processed.
 
 Most application servers and frameworks use thread pools to manage concurrency.
 
@@ -72,7 +72,7 @@ Once exhausted, incoming requests must wait or fail.
 
 ## Description
 
-<a href="../../patterns/application/dependency-cascade.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**Connection Pool Exhaustion** </a> occurs when all available database or service connections are in use, preventing new requests from obtaining a connection.
+<a href="../../patterns/application/connection-pool-exhaustion.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**Connection Pool Exhaustion** </a> occurs when all available database or service connections are in use, preventing new requests from obtaining a connection.
 
 Connection pools are used to limit the number of open connections to databases or external services.
 
