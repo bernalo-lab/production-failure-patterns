@@ -56,7 +56,8 @@ Recognising application failure patterns helps engineers diagnose problems faste
 
 ---
 
-2. Infrastructure Failure Patterns
+2. # Infrastructure Failure Patterns
+See available 'Infrastructure Failure Patterns' <a href="./categories/Infrastructure/Infrastructure.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">here</a>
 
 Infrastructure Failure Patterns occur when underlying platform components such as compute resources, networking, storage devices, or load balancers become constrained or unavailable.
 
@@ -68,7 +69,8 @@ Understanding infrastructure failure patterns helps engineers quickly identify w
 
 ---
 
-3. Data & Storage Failure Patterns
+3. # Data & Storage Failure Patterns
+See available 'Data & Storage Failure Patterns' <a href="./categories/data/data.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">here</a>
 
 Data & Storage Failure Patterns arise when databases, storage systems, or data pipelines experience contention, capacity limits, or replication issues.
 
@@ -80,7 +82,8 @@ Recognising data-layer failure patterns allows engineers to focus on query perfo
 
 ---
 
-4. Dependency Failure Patterns
+4. # Dependency Failure Patterns
+See available 'Dependency Failure Patterns' <a href="./categories/dependency/dependency.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">here</a>
 
 Dependency Failure Patterns occur when external or internal services that an application relies on become slow, unavailable, or unstable.
 
@@ -92,7 +95,8 @@ Understanding dependency failure patterns helps teams design systems with circui
 
 ---
 
-5. Observability & Operational Failure Patterns
+5. # Observability & Operational Failure Patterns
+See available 'Observability & Operational Failure Patterns' <a href="./categories/operational/operational.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">here</a>
 
 Observability & Operational Failure Patterns occur when system visibility, configuration management, or operational processes fail during incidents.
 
