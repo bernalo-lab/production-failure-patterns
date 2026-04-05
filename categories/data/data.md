@@ -16,7 +16,7 @@ This pattern appears in production systems when traffic spikes, queries run slow
 
 ## Description
 
-A <a href="../../patterns/data/database-connection-exhaustion.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**Hot Partition** </a> occurs when a disproportionate amount of traffic targets a single shard, partition, or key within a distributed system.
+A <a href="../../patterns/data/hot-partition.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**Hot Partition** </a> occurs when a disproportionate amount of traffic targets a single shard, partition, or key within a distributed system.
 
 While the system may appear balanced overall, one node or partition becomes overloaded.
 
@@ -28,7 +28,7 @@ This often happens in systems using hash-based partitioning when certain keys re
 
 ## Description
 
-<a href="../../patterns/data/database-connection-exhaustion.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**Replication Lag** </a> occurs when a replica database or storage node falls behind the primary and no longer reflects current data in real time.
+<a href="../../patterns/data/replication-lag.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**Replication Lag** </a> occurs when a replica database or storage node falls behind the primary and no longer reflects current data in real time.
 
 This pattern appears in production systems when write volume increases, replication channels slow down, network connectivity degrades, or replicas lack sufficient resources to keep up. As the lag grows, applications reading from replicas may serve stale data, causing inconsistent user behaviour and hard-to-diagnose incidents.
 
