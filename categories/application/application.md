@@ -82,4 +82,46 @@ This causes requests to wait indefinitely or fail.
 
 ---
 
+# 07. Pattern: Event Queue Backlog
+
+## Description
+<a href="../../patterns/application/event-queue-backlog.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**Event Queue Backlog** </a> occurs when events are produced faster than they can be consumed, causing queues to grow uncontrollably.
+
+This is common in systems using message brokers or asynchronous processing pipelines.
+
+As backlog grows, event processing delays increase and downstream services become overwhelmed.
+
+---
+
+# 08. Lock Contention
+
+## Description
+<a href="../../patterns/application/lock-contention.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**Lock Contention** </a> occurs when multiple processes, threads, or transactions compete for the same lock, causing work to block and throughput to fall.
+
+This pattern appears in production systems when many operations target the same rows, keys, or shared resources at the same time. As lock wait times increase, requests become slower, queues form, and dependent services may begin to time out.
+
+---
+
+# 09. Memory Leak Under Load
+
+## Description
+A <a href="../../patterns/application/memory-leak-under-load.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**Memory Leak Under Load** </a> occurs when an application gradually consumes increasing amounts of memory during sustained traffic, eventually exhausting available resources.
+
+Memory leaks typically result from objects that are allocated but never released. Under light load, the leak may go unnoticed. However, under heavy traffic, memory consumption accelerates rapidly.
+
+Over time, the system becomes unstable and may trigger garbage collection storms, swap usage, or container restarts.
+
+---
+
+# 10. Partial Service Degradation
+
+## Description
+<a href="../../patterns/application/partial-service-degradation.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**Partial Service Degradation** </a> occurs when a service continues operating but with reduced functionality or performance.
+
+Instead of failing completely, certain operations fail while others remain available.
+
+This often causes confusing symptoms during incident response.
+
+---
+
 <a href="../../README.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**<< Back** </a>
