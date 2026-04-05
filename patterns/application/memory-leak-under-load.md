@@ -87,3 +87,7 @@ Release objects, connections, and file handles properly.
 ### Load Testing
 
 Run sustained load tests to detect leaks before production.
+
+---
+
+<a href="../../categories/application/application.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**>> Back**</a>
