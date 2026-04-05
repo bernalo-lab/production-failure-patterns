@@ -20,7 +20,7 @@ In distributed systems, this can rapidly overload databases, caches, APIs, or st
 
 ## Description
 
-A **Retry Storm** occurs when multiple services repeatedly retry failed requests in a short time window, unintentionally overwhelming the system they depend on.
+A <a href="../../patterns/application/retry-storm.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**Retry Storm** </a> occurs when multiple services repeatedly retry failed requests in a short time window, unintentionally overwhelming the system they depend on.
 
 Retries are normally designed to improve reliability. When a request fails due to a temporary issue (network hiccup, timeout, or transient service slowdown), the client retries the request to recover automatically.
 
@@ -30,7 +30,7 @@ Retries are normally designed to improve reliability. When a request fails due t
 
 ## Description
 
-A **Cache Stampede** occurs when many clients attempt to regenerate a cached value simultaneously after the cache entry expires.
+A <a href="../../patterns/application/cache-stampede.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**Cache Stampede** </a> occurs when many clients attempt to regenerate a cached value simultaneously after the cache entry expires.
 
 Instead of one process rebuilding the cache while others wait, multiple processes attempt the same expensive operation.
 
@@ -44,7 +44,7 @@ The problem becomes severe in high-traffic environments where cache entries expi
 
 ## Description
 
-A **Dependency Cascade** occurs when failure or slowdown in one service propagates through multiple dependent services, causing widespread system degradation.
+A <a href="../../patterns/application/dependency-cascade.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**Dependency Cascade** </a> occurs when failure or slowdown in one service propagates through multiple dependent services, causing widespread system degradation.
 
 Modern microservice architectures rely heavily on inter-service communication.
 
@@ -58,7 +58,7 @@ This cascading effect can rapidly transform a localized issue into a full system
 
 ## Description
 
-Thread Pool Exhaustion occurs when all available worker threads in a service become occupied, preventing new requests from being processed.
+<a href="../../patterns/application/dependency-cascade.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**Thread Pool Exhaustion** </a> occurs when all available worker threads in a service become occupied, preventing new requests from being processed.
 
 Most application servers and frameworks use thread pools to manage concurrency.
 
@@ -72,7 +72,7 @@ Once exhausted, incoming requests must wait or fail.
 
 ## Description
 
-**Connection Pool** Exhaustion occurs when all available database or service connections are in use, preventing new requests from obtaining a connection.
+<a href="../../patterns/application/dependency-cascade.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**Connection Pool Exhaustion** </a> occurs when all available database or service connections are in use, preventing new requests from obtaining a connection.
 
 Connection pools are used to limit the number of open connections to databases or external services.
 
@@ -81,3 +81,5 @@ When connections are held too long or requests increase suddenly, the pool may b
 This causes requests to wait indefinitely or fail.
 
 ---
+
+<a href="../../README.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**<< Back** </a>
