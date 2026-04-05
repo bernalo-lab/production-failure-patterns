@@ -94,3 +94,7 @@ Examples:
 - workload isolation
 - replication capacity planning
 - query optimisation on replicas
+
+---
+
+<a href="../../categories/data/data.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**>> Back**</a>
