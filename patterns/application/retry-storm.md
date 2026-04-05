@@ -223,4 +223,9 @@ Without these protections, retries can quickly transform a minor outage into a *
 
 ---
 
-<a href="../../application.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**>> Back**</a>
+<a href="../categories/application.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**>> Back**</a>
+
+<a href="../categories/application.md"
+   style="display:inline-block; padding:10px 14px; border:1px solid #e5e7eb; border-radius:8px; text-decoration:none; color:#111827;">
+   << Back
+</a>
