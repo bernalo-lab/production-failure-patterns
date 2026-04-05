@@ -6,7 +6,7 @@
 
 ## Description
 
-The **Thundering Herd** pattern occurs when a large number of clients or services simultaneously attempt to perform the same operation, overwhelming a system resource.
+The <a href="../../patterns/application/application.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**Thundering Herd** </a> pattern occurs when a large number of clients or services simultaneously attempt to perform the same operation, overwhelming a system resource.
 
 This often happens when multiple workers, services, or processes are waiting on the same trigger event — such as a cache expiration, lock release, or service recovery.
 
@@ -72,7 +72,7 @@ Once exhausted, incoming requests must wait or fail.
 
 ## Description
 
-Connection Pool Exhaustion occurs when all available database or service connections are in use, preventing new requests from obtaining a connection.
+**Connection Pool** Exhaustion occurs when all available database or service connections are in use, preventing new requests from obtaining a connection.
 
 Connection pools are used to limit the number of open connections to databases or external services.
 
