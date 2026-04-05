@@ -220,3 +220,7 @@ Retries should always be implemented carefully with:
 - retry limits
 
 Without these protections, retries can quickly transform a minor outage into a **major production incident**.
+
+---
+
+<a href="../../application.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**>> Back**</a>
