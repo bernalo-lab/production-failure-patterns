@@ -5,7 +5,7 @@
 # 01. Pattern: CPU Starvation
 
 ## Description
-<a href="../../patterns/infrastructure/cpu-starvation.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**CPU Starvation**</a> occurs when critical processes do not receive enough CPU time to run efficiently because the available CPU capacity is fully consumed.
+<a href="../../patterns/infrasructure/cpu-starvation.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**CPU Starvation**</a> occurs when critical processes do not receive enough CPU time to run efficiently because the available CPU capacity is fully consumed.
 
 This pattern appears in production systems when compute-intensive workloads, runaway threads, noisy neighbours, or poor resource limits cause the CPU to remain saturated. As a result, request latency increases, queues grow, and time-sensitive operations begin to fail.
 
