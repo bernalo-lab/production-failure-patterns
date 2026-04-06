@@ -16,7 +16,7 @@ This pattern appears in production systems because configuration often controls 
 
 ## Description
 
-A <a href="../../patterns/operational/bad-configuration-deployment.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**Feature Flag Meltdown**</a> occurs when enabling, disabling, or misconfiguring a feature flag causes unexpected system-wide impact.
+A <a href="../../patterns/operational/feature-flag-meltdown.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**Feature Flag Meltdown**</a> occurs when enabling, disabling, or misconfiguring a feature flag causes unexpected system-wide impact.
 
 This pattern appears in production systems because feature flags often control important code paths, traffic routing, backend calls, or expensive functionality. When a flag is rolled out too broadly or interacts badly with existing behaviour, it can trigger latency spikes, dependency overload, inconsistent behaviour, or partial outages.
 
