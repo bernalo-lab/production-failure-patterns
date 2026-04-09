@@ -74,17 +74,17 @@ Retry attempts
 
 ## Prevention
 
-**Circuit Breakers**
-Stop sending requests to degraded dependencies.
+**Circuit Breakers**<br />
+Stop sending requests to degraded dependencies.<br />
 
-**Timeouts**
-Ensure outbound requests have appropriate timeouts.
+**Timeouts**<br />
+Ensure outbound requests have appropriate timeouts.<br />
 
-**Fallback Strategies**
-Provide cached or degraded responses.
+**Fallback Strategies**<br />
+Provide cached or degraded responses.<br />
 
-**Dependency Monitoring**
-Track third-party health independently.
+**Dependency Monitoring**<br />
+Track third-party health independently.<br />
 
 ---
 
