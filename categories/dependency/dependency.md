@@ -6,13 +6,7 @@ These often create cascading failures.
 
 ---
 
-# 01. Pattern: Database Connection Exhaustion
-
-Coming soon, please check back.
-
----
-
-# 02. Third-Party Dependency Degradation
+# 01. Third-Party Dependency Degradation
 
 ## Description
 
@@ -24,7 +18,7 @@ This pattern frequently causes cascading latency across services that depend on 
 
 ---
 
-# 03. DNS Resolution Failure
+# 02. DNS Resolution Failure
 
 ## Description
 
@@ -36,7 +30,7 @@ DNS failures can disrupt large portions of distributed systems.
 
 ---
 
-# 04. Expired Certificate
+# 03. Expired Certificate
 
 ## Description
 
@@ -48,7 +42,7 @@ This often causes sudden outages despite the underlying service being healthy.
 
 ---
 
-# 05. API Rate Limit Saturation
+# 04. API Rate Limit Saturation
 
 ## Description
 
@@ -58,10 +52,9 @@ When rate limits are exceeded, the dependency begins rejecting requests, typical
 
 This often triggers retries that worsen the situation.
 
-
 ---
 
-# 06. Authentication Service Failure
+# 05. Authentication Service Failure
 
 ## Description
 
@@ -71,34 +64,58 @@ Because many services depend on authentication validation, this failure can bloc
 
 ---
 
-# 07. Configuration Service Outage
+# 06. Configuration Service Outage
 
-Coming soon, please check back.
+## Description
+
+<a href="../../patterns/dependency/configuration-service-outage.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**Configuration Service Outage**</a> occurs when centralized configuration management systems become unavailable.
+
+Services depending on dynamic configuration may fail to start or operate incorrectly.
+
+---
+
+# 07. Downstream Retry Amplification
+
+## Description
+
+<a href="../../patterns/dependency/downstream-retry-amplification.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**Downstream Retry Amplification**</a> occurs when retry mechanisms multiply traffic toward failing services.
+
+Instead of reducing failure impact, retries create additional load that worsens the problem.
 
 ---
 
 # 08. Message Queue Backlog
 
-Coming soon, please check back.
+## Description
+
+<a href="../../patterns/dependency/message-queue-backlog.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**Message Queue Backlog**</a> occurs when producers send messages faster than consumers can process them.
+
+Over time, messages accumulate, causing delays and potential system instability.
 
 ---
 
 # 09. Event Bus Lag
 
-Coming soon, please check back.
+## Description
+
+<a href="../../patterns/dependency/message-queue-backlog.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**Event Bus Lag**</a> occurs when event propagation across distributed systems slows down.
+
+Events remain in the event stream longer than expected, delaying downstream processing.
 
 ---
 
 # 10. Dependency Timeout Cascade
 
-Coming soon, please check back.
+## Description
+
+<a href="../../patterns/dependency/dependency-timeout-cascade.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**Dependency Timeout Cascade**</a> occurs when one slow dependency causes multiple upstream services to experience timeouts.
+
+These timeouts propagate through the call chain, eventually impacting many services.
 
 ---
 
-# 11. Downstream Retry Amplification
+<a href="../../README.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**<< Back**</a>
 
-Coming soon, please check back.
 
----
 
 <a href="../../README.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**>> Back**</a>
