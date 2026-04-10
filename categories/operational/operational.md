@@ -68,13 +68,13 @@ Dashboards often summarise complex system behaviour. When dashboards are poorly 
 
 ---
 
-# 02. Pattern: feature-flag-meltdown
+# 07. Pattern: Logging Pipeline Failure
 
 ## Description
 
-A <a href="../../patterns/operational/feature-flag-meltdown.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**Feature Flag Meltdown**</a> occurs when enabling, disabling, or misconfiguring a feature flag causes unexpected system-wide impact.
+A <a href="../../patterns/operational/logging-pipeline-failure.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**Logging Pipeline Failure**</a> occurs when logs stop being collected, processed, or delivered to the logging system.
 
-This pattern appears in production systems because feature flags often control important code paths, traffic routing, backend calls, or expensive functionality. When a flag is rolled out too broadly or interacts badly with existing behaviour, it can trigger latency spikes, dependency overload, inconsistent behaviour, or partial outages.
+This removes one of the most important diagnostic tools during incidents. Engineers lose visibility into system behaviour and debugging becomes significantly harder.
 
 ---
 
