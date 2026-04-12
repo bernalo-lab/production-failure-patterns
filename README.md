@@ -57,7 +57,7 @@ Recognising application failure patterns helps engineers diagnose problems faste
 ---
 
 2. # Infrastructure Failure Patterns
-See available 'Infrastructure Failure Patterns' <a href="./categories/Infrastructure/Infrastructure.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">here</a>
+See available 'Infrastructure Failure Patterns' <a href="./categories/Infrastructure/infrastructure.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">here</a>
 
 Infrastructure Failure Patterns occur when underlying platform components such as compute resources, networking, storage devices, or load balancers become constrained or unavailable.
 
