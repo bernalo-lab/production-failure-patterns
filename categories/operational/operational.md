@@ -78,5 +78,35 @@ This removes one of the most important diagnostic tools during incidents. Engine
 
 ---
 
+# 08. Pattern: Trace Fragmentation
+
+## Description
+
+<a href="../../patterns/operational/logging-pipeline-failure.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**Trace Fragmentation**</a> occurs when distributed traces fail to connect across services.
+
+Instead of a complete request path, engineers see partial traces, making it difficult to understand request flow during incidents.
+
+---
+
+# 09. Pattern: Alert Fatigue Masking Real Incident
+
+## Description
+
+<a href="../../patterns/operational/logging-pipeline-failure.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**Alert Fatigue**</a> occurs when engineers receive too many low-value alerts, causing them to ignore notifications or delay responses.
+
+When a real incident occurs, it may be overlooked or dismissed because responders are accustomed to frequent false alarms.
+
+---
+
+# 10. Pattern: Incident Misclassification
+
+## Description
+
+<a href="../../patterns/operational/logging-pipeline-failure.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**Incident Misclassification**</a> occurs when an incident is incorrectly categorised during triage.
+
+Incorrect classification can delay escalation, route the incident to the wrong team, or cause responders to pursue incorrect investigation paths.
+
+---
+
 <a href="../../README.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**>> Back**</a>
 
