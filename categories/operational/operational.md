@@ -82,7 +82,7 @@ This removes one of the most important diagnostic tools during incidents. Engine
 
 ## Description
 
-<a href="../../patterns/operational/logging-pipeline-failure.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**Trace Fragmentation**</a> occurs when distributed traces fail to connect across services.
+<a href="../../patterns/operational/trace-fragmentation.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**Trace Fragmentation**</a> occurs when distributed traces fail to connect across services.
 
 Instead of a complete request path, engineers see partial traces, making it difficult to understand request flow during incidents.
 
@@ -92,7 +92,7 @@ Instead of a complete request path, engineers see partial traces, making it diff
 
 ## Description
 
-<a href="../../patterns/operational/logging-pipeline-failure.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**Alert Fatigue**</a> occurs when engineers receive too many low-value alerts, causing them to ignore notifications or delay responses.
+<a href="../../patterns/operational/alert-fatigue-masking-real-incident.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**Alert Fatigue**</a> occurs when engineers receive too many low-value alerts, causing them to ignore notifications or delay responses.
 
 When a real incident occurs, it may be overlooked or dismissed because responders are accustomed to frequent false alarms.
 
@@ -102,9 +102,29 @@ When a real incident occurs, it may be overlooked or dismissed because responder
 
 ## Description
 
-<a href="../../patterns/operational/logging-pipeline-failure.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**Incident Misclassification**</a> occurs when an incident is incorrectly categorised during triage.
+<a href="../../patterns/operational/incident-misclassification.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**Incident Misclassification**</a> occurs when an incident is incorrectly categorised during triage.
 
 Incorrect classification can delay escalation, route the incident to the wrong team, or cause responders to pursue incorrect investigation paths.
+
+---
+
+# 11. Pattern: Time Synchronisation Drift
+
+## Description
+
+<a href="../../patterns/operational/time-synchronisation-drift.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**Time Synchronisation Drift**</a> occurs when servers or services have inconsistent system clocks.
+
+In distributed systems, time consistency is critical for logging, tracing, authentication, and coordination between services. When clocks drift apart, logs become misaligned and debugging becomes extremely difficult.
+
+---
+
+# 12. Pattern: Sampling Misconfiguration
+
+## Description
+
+<a href="../../patterns/operational/sampling-misconfiguration.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**Sampling Misconfiguration**</a> occurs when observability systems sample too little or too much telemetry data.
+
+When sampling is too aggressive, important diagnostic data may be lost. When sampling is too low, observability systems may become overloaded.
 
 ---
 
