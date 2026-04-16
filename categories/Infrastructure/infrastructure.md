@@ -29,7 +29,7 @@ This pattern appears in production systems when DNS servers fail, records expire
 
 ---
 
-# 04. Pattern: load-balancer-saturation
+# 04. Pattern: Load Balancer Saturation
 
 ## Description
 <a href="../../patterns/Infrastructure/load-balancer-saturation.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**Load Balancer Saturation**</a> occurs when a load balancer becomes a bottleneck and can no longer efficiently distribute incoming traffic.
@@ -38,7 +38,7 @@ This pattern appears in production systems when traffic exceeds capacity, connec
 
 ---
 
-# 05. Pattern: network-partition
+# 05. Pattern: Network Partition
 
 ## Description
 A <a href="../../patterns/Infrastructure/load-balancer-saturation.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**Network Partition**</a> occurs when one part of a distributed system loses communication with another part, even though the individual components may still be running.
@@ -47,4 +47,22 @@ This pattern appears in production systems when network paths break, routing cha
 
 ---
 
-<a href="../../README.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**>> Back**</a>
+# 06. Pattern: Memory Exhaustion
+
+## Description
+<a href="../../patterns/Infrastructure/memory-exhaustion.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**Memory Exhaustion**</a> occurs when a system or service consumes all available memory, leading to degraded performance, crashes, or forced process termination.
+
+This pattern commonly appears in production systems due to memory leaks, unbounded caching, or sudden spikes in workload. In containerised environments, it often triggers OOM (Out Of Memory) kills, restarting services and disrupting availability.
+
+---
+
+# 07. Pattern: Container Restart Loop
+
+## Description
+<a href="../../patterns/Infrastructure/container-restart-loop.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**Container Restart Loop**</a> occurs when a container repeatedly crashes and is automatically restarted by the orchestration system (e.g., Kubernetes CrashLoopBackOff).
+
+This pattern appears when applications fail during startup or shortly after, causing continuous restarts that prevent the service from stabilising.
+
+---
+
+<a href="../../README.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**<< Back**</a>
