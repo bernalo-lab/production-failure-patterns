@@ -94,5 +94,17 @@ Backup processes may compete with live traffic for disk I/O, CPU, or database lo
 
 ---
 
+# 10. Pattern: Long Running Query Saturation
+
+## Description
+
+<a href="../../patterns/data/long_running_query.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**Long Running Query Saturation**</a> occurs when one or more database queries take significantly longer than expected, consuming excessive resources (CPU, memory, locks, or I/O), which in turn degrades overall system performance.
+
+In production systems, this pattern often emerges under load when inefficient queries, missing indexes, or large data scans block or delay other operations. Over time, these slow queries accumulate, leading to resource exhaustion and widespread latency across services that depend on the database.
+
+This is especially common in large-scale systems where query complexity grows alongside data volume.
+
+---
+
 <a href="../../README.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**<< Back**</a>
 
