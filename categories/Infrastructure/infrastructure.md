@@ -65,4 +65,49 @@ This pattern appears when applications fail during startup or shortly after, cau
 
 ---
 
+# 08. Pattern: Node Resource Starvation
+
+## Description
+<a href="../../patterns/Infrastructure/node-resource-starvation.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**Node Resource Starvation**</a> occurs when a host or Kubernetes node runs out of critical shared resources such as CPU, memory, disk, or network capacity, causing workloads on that node to degrade.
+
+This pattern frequently causes multiple unrelated services to fail simultaneously because they share the same infrastructure dependency.
+
+---
+
+# 09. Pattern: Auto-Scaling Failure
+
+## Description
+An <a href="../../patterns/Infrastructure/auto-scaling-failure.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**Auto-Scaling Failure**</a> occurs when systems fail to scale up or down appropriately in response to changing demand.
+
+This creates either under-provisioning (causing incidents) or over-provisioning (causing unnecessary cost). In production, under-scaling is usually the dangerous failure mode.
+
+---
+
+# 10. Pattern: Network Packet Loss
+
+## Description
+<a href="../../patterns/Infrastructure/network-packet-loss.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**Network Packet Loss**</a> occurs when packets fail to reach their destination across the network, causing retransmissions, latency spikes, and intermittent failures.
+
+This pattern often creates confusing production incidents because applications appear partially healthy while requests randomly fail.
+
+---
+
+# 11. Pattern: Port Exhaustion
+
+## Description
+<a href="../../patterns/Infrastructure/port-exhaustion.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**Port Exhaustion**</a> occurs when a system runs out of available ephemeral ports required for outbound connections.
+
+This commonly affects high-throughput systems making large numbers of short-lived network calls and can cause sudden widespread connection failures.
+
+---
+
+# 12. Pattern: Kernel Resource Limits Reached
+
+## Description
+<a href="../../patterns/Infrastructure/kernel-resource-limits.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**Kernel Resource Limits Reached**</a> occurs when operating system-level limits such as file descriptors, process limits, sockets, or threads are exhausted.
+
+This creates sudden failures even when application metrics appear healthy because the failure occurs below the application layer.
+
+---
+
 <a href="../../README.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**<< Back**</a>
