@@ -194,6 +194,18 @@ systems with asynchronous business processes
 
 ---
 
+11.  # 20 “Black Swan” Rare Production Failure Patterns
+
+See available '20 “Black Swan” Rare Production Failure Patterns' <a href="./categories/rare-patterns/rare-patterns.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">here</a>
+
+These are low-frequency but high-impact failure patterns that can create severe outages, regulatory incidents, financial loss, or complete operational paralysis. They are often difficult to predict, poorly documented, and rarely included in standard incident playbooks.
+
+When they happen, they expose gaps in architecture, resilience planning, and incident judgement.
+
+These patterns create authority because very few engineers prepare for them properly.
+
+---
+
 ## Part of the Incident Engineering Knowledge Base
 
 This repository is part of a broader effort to document production failure patterns and debugging strategies.
