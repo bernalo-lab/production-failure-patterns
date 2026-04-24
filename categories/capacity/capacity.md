@@ -9,17 +9,17 @@ Thanks for dropping by.
 
 These cause slow degradation before full incidents.
 
-Slow Burn Capacity Exhaustion
-Burst Traffic Saturation
-Connection Leak Saturation
-Queue Consumer Starvation
-Disk IOPS Saturation
-Ephemeral Storage Exhaustion
-Swap Thrashing
-Noisy Neighbour Resource Contention
-Autoscaler Feedback Loop Failure
-Cold Start Amplification
+1. # Slow Burn Capacity Exhaustion
+2. # Burst Traffic Saturation
+3. # Connection Leak Saturation
+4. # Queue Consumer Starvation
+5. # Disk IOPS Saturation
+6. # Ephemeral Storage Exhaustion
+7. # Swap Thrashing
+8. # Noisy Neighbour Resource Contention
+9. # Autoscaler Feedback Loop Failure
+10. # Cold Start Amplification
 
 ---
 
-A <a href="../../README.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**<<Back**</a>
+<a href="../../README.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**<<Back**</a>
