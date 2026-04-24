@@ -108,18 +108,6 @@ Recognising these patterns helps teams improve incident detection, troubleshooti
 
 ---
 
-## Part of the Incident Engineering Knowledge Base
-
-This repository is part of a broader effort to document production failure patterns and debugging strategies.
-
----
-
-## Contributions
-
-Engineers are welcome to contribute additional patterns.
-
----
-
 6. # Security & Access Failure Patterns
 See available 'Security & Access Failure Patterns' <a href="./categories/security/security.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">here</a>
 
@@ -201,6 +189,20 @@ insurance and financial platforms
 order processing workflows
 event-driven architectures
 systems with asynchronous business processes
+
+---
+
+## Part of the Incident Engineering Knowledge Base
+
+This repository is part of a broader effort to document production failure patterns and debugging strategies.
+
+---
+
+## Contributions
+
+Engineers are welcome to contribute additional patterns.
+
+---
 
 
 Real-world incident patterns are especially valuable.
