@@ -143,7 +143,7 @@ multi-service microservice platforms
 ---
 
 8. # Configuration & Control Plane Failure Patterns
-See available 'Deployment & Release Failure Patterns' <a href="./categories/deployment/deployment.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">here</a>
+See available 'Configuration & Control Plane Failure Patterns' <a href="./categories/configuration/configuration.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">here</a>
 
 These failures come from misaligned configuration, service discovery issues, stale caches, and failures inside the platform control plane that coordinates distributed systems.
 
@@ -177,6 +177,8 @@ large-scale cloud infrastructure environments
 ---
 
 10.  # Business Logic & Workflow Failure Patterns
+
+See available 'Business Logic & Workflow Failure Patterns' <a href="./categories/business/business.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">here</a>
 
 These failures occur when application workflows behave incorrectly even though infrastructure and monitoring may show everything as healthy. Problems like duplicate processing, broken retries, failed compensations, or inconsistent business states create serious operational and financial risk without obvious technical alerts.
 
