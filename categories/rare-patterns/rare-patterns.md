@@ -1,12 +1,5 @@
 # 20 “Black Swan” Rare Production Failure Patterns
 
-## Description
-These are low-frequency but high-impact failure patterns that can create severe outages, regulatory incidents, financial loss, or complete operational paralysis. They are often difficult to predict, poorly documented, and rarely included in standard incident playbooks.
-
-When they happen, they expose gaps in architecture, resilience planning, and incident judgement.
-
-These patterns create authority because very few engineers prepare for them properly.
-
 ---
 
 1. # Leap Second Failure
