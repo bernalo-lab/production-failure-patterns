@@ -118,4 +118,89 @@ This repository is part of a broader effort to document production failure patte
 
 Engineers are welcome to contribute additional patterns.
 
+---
+
+6. # Security & Access Failure Patterns
+See available 'Security & Access Failure Patterns' <a href="./categories/security/security.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">here</a>
+
+These failures originate from authentication, authorisation, secrets management, certificates, and security controls that unintentionally disrupt system availability. They often appear as access denials, blocked traffic, expired credentials, or permission drift that causes production services to fail unexpectedly.
+
+In many cases, the system is technically “healthy,” but users and services cannot operate because trust boundaries have broken.
+
+**These are especially common in**:
+
+IAM and access control systems
+API gateways and authentication services
+certificate and secret management
+cloud security groups and firewalls
+enterprise platforms with strict compliance controls
+
+---
+
+7. # Deployment & Release Failure Patterns
+See available 'Deployment & Release Failure Patterns' <a href="./categories/deployment/deployment.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">here</a>
+
+These failures occur during software releases, infrastructure changes, and CI/CD operations where deployment logic introduces instability into production. A small release issue can rapidly escalate into a widespread outage when rollback paths fail, versions become inconsistent, or infrastructure drifts from the expected state.
+
+These incidents are often high-pressure because they happen during active change windows.
+
+**These are especially common in**:
+
+CI/CD pipelines
+Kubernetes deployments
+Terraform and Infrastructure as Code
+blue-green and canary release strategies
+multi-service microservice platforms
+
+---
+
+8. # Configuration & Control Plane Failure Patterns
+See available 'Deployment & Release Failure Patterns' <a href="./categories/deployment/deployment.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">here</a>
+
+These failures come from misaligned configuration, service discovery issues, stale caches, and failures inside the platform control plane that coordinates distributed systems.
+
+They are particularly dangerous because they often create silent failures—systems appear healthy while behaviour becomes inconsistent across services, regions, or environments. Debugging is difficult because the problem is often hidden behind “correct-looking” infrastructure.
+
+**These are especially common in**:
+
+Kubernetes control planes
+service discovery platforms
+distributed systems coordination
+environment management across dev/test/prod
+cloud-native platforms with heavy automation
+
+---
+
+9. # Capacity & Performance Failure Patterns
+See available 'Capacity & Performance Failure Patterns' <a href="./categories/capacity/capacity.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">here</a>
+
+These failures emerge when systems gradually or suddenly exceed their operational limits, causing degradation before complete service failure. They often begin as latency spikes, queue growth, or resource contention and evolve into outages when autoscaling, storage, or compute cannot keep up with demand.
+
+These are some of the most common causes of production instability at scale.
+
+**These are especially common in**:
+
+high-traffic APIs
+queue and event-driven systems
+databases and storage-heavy platforms
+containerised workloads
+large-scale cloud infrastructure environments
+
+---
+
+10.  # Business Logic & Workflow Failure Patterns
+
+These failures occur when application workflows behave incorrectly even though infrastructure and monitoring may show everything as healthy. Problems like duplicate processing, broken retries, failed compensations, or inconsistent business states create serious operational and financial risk without obvious technical alerts.
+
+These patterns are often the hardest to detect because they live inside business behaviour rather than system health metrics.
+
+**These are especially common in**:
+
+payment systems
+insurance and financial platforms
+order processing workflows
+event-driven architectures
+systems with asynchronous business processes
+
+
 Real-world incident patterns are especially valuable.
