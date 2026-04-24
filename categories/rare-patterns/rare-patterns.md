@@ -146,11 +146,10 @@ trust chain collapse
 
 *That difference separates*:
 
-# Monitoring Engineers
-
-from
-
-# Incident Engineers
-
+<b>Monitoring Engineers</b> from <b>Incident Engineers</b>
 
 This is exactly where serious authority is built.
+
+---
+
+A <a href="../../README.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**<< Back**</a>
