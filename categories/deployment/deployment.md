@@ -56,7 +56,7 @@ This can block releases entirely or allow broken deployments if validation steps
 
 ## Description
 
-<a href="../../patterns/deployment/infra-drift-after-deploy.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**Infrastructure Drift After Deploy** occurs when the live production environment no longer matches the intended declared infrastructure state after deployment.
+<a href="../../patterns/deployment/infra-drift-after-deploy.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**Infrastructure Drift After Deploy**</a> occurs when the live production environment no longer matches the intended declared infrastructure state after deployment.
 
 This creates hidden instability because systems behave differently from what deployment automation expects.
 
@@ -66,7 +66,7 @@ This creates hidden instability because systems behave differently from what dep
 
 ## Description
 
-<a href="../../patterns/deployment/deployment-dependency-ordering.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**Deployment Dependency Ordering Failure** happens when services, infrastructure, or migrations are deployed in the wrong sequence, causing downstream systems to fail because prerequisites are not yet ready.
+<a href="../../patterns/deployment/deployment-dependency-ordering.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**Deployment Dependency Ordering Failure**</a> happens when services, infrastructure, or migrations are deployed in the wrong sequence, causing downstream systems to fail because prerequisites are not yet ready.
 
 This often creates outages during otherwise valid releases.
 
@@ -86,7 +86,7 @@ Small configuration mistakes can create major outages across services and cluste
 
 ## Description
 
-<a href="../../patterns/deployment/terraform-state-corruption.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**Terraform State Corruption** occurs when the Terraform state file becomes inconsistent, incomplete, locked incorrectly, or no longer reflects the real infrastructure.
+<a href="../../patterns/deployment/terraform-state-corruption.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**Terraform State Corruption**</a> occurs when the Terraform state file becomes inconsistent, incomplete, locked incorrectly, or no longer reflects the real infrastructure.
 
 This makes deployments dangerous because Terraform may destroy, recreate, or lose track of critical production resources.
 
@@ -96,7 +96,7 @@ This makes deployments dangerous because Terraform may destroy, recreate, or los
 
 ## Description
 
-<a href="../../patterns/deployment/partial-deployment-state.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**Partial Deployment State** occurs when only part of a deployment succeeds, leaving the system running with a mixed combination of old and new versions, incomplete resources, or inconsistent infrastructure.
+<a href="../../patterns/deployment/partial-deployment-state.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">**Partial Deployment State**</a> occurs when only part of a deployment succeeds, leaving the system running with a mixed combination of old and new versions, incomplete resources, or inconsistent infrastructure.
 
 This creates unpredictable behaviour because services, dependencies, or configurations are no longer aligned across the production environment.
 
