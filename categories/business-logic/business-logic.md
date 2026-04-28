@@ -1,5 +1,8 @@
 # Category: Business Logic & Workflow Failure Patterns
 
+## Description
+These failures occur when business processes break even though infrastructure appears healthy. They involve duplicate processing, failed compensations, stuck workflows, payment inconsistencies, and orchestration deadlocks that traditional monitoring often misses.
+
 ---
 
 # 01. Pattern: Idempotency Failure
