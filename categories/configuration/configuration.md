@@ -1,5 +1,8 @@
 # Category: Configuration & Control Plane Failure Patterns
 
+## Description
+These failures come from hidden configuration mismatches, stale settings, control plane outages, and coordination problems between services or infrastructure. They are often difficult to detect because systems may appear healthy while behaviour becomes inconsistent.
+
 ---
 
 # 01. Pattern: Config Drift Across Environments
