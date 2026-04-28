@@ -178,7 +178,7 @@ large-scale cloud infrastructure environments
 
 10.  # Business Logic & Workflow Failure Patterns
 
-See available 'Business Logic & Workflow Failure Patterns' <a href="./categories/business-logic/business.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">here</a>
+See available 'Business Logic & Workflow Failure Patterns' <a href="./categories/business-logic/business-logic.md" style="min-width:260px; border:1px solid #e5e7eb; border-radius:8px; padding:12px; text-decoration:none;">here</a>
 
 These failures occur when application workflows behave incorrectly even though infrastructure and monitoring may show everything as healthy. Problems like duplicate processing, broken retries, failed compensations, or inconsistent business states create serious operational and financial risk without obvious technical alerts.
 
