@@ -1,5 +1,8 @@
 # Category: Security & Access Failure Patterns
 
+## Decsription
+These failures create incidents through authentication, permissions, certificates, secrets, and security controls. They often appear as outages even though the root cause is access denial, trust failure, or security misconfiguration.
+
 ---
 
 # 01. Pattern: Secret Rotation
