@@ -1,8 +1,7 @@
 # Category: Dependency Failure Patterns
 
-External services or internal dependencies.
-
-These often create cascading failures.
+## Description
+These failures happen when downstream services, APIs, databases, or third-party providers become slow, unavailable, or behave unpredictably. They commonly trigger retries, timeouts, and cascading failures across healthy systems.
 
 ---
 
