@@ -1,5 +1,8 @@
 # Category: Data & Storage Failure Patterns 
 
+## Description
+These failures involve databases, storage platforms, indexes, transactions, and persistence layers. They often create hidden corruption, latency spikes, deadlocks, or recovery problems that spread across the system.
+
 ---
 
 # 01. Pattern: Database Connection Exhaustion
