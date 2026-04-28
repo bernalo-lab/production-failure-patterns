@@ -1,5 +1,8 @@
 # Category: Observability & Operational Failure Patterns
 
+## Description
+These failures occur when monitoring, alerting, dashboards, or operational processes fail to provide accurate signals during incidents. Engineers lose visibility, respond to the wrong problem, or delay mitigation because the system is telling the wrong story.
+
 ---
 
 # 01. Pattern: Bad Configuration Deployment
