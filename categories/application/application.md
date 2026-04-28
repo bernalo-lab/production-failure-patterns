@@ -1,4 +1,7 @@
-# Category: Application
+# Category: Application Failure Patterns
+
+## Description
+These failures come from code execution, runtime behaviour, concurrency issues, and application logic faults. They include crashes, thread exhaustion, memory leaks, and state corruption that directly impact service reliability.
 
 ---
 
