@@ -1,5 +1,8 @@
 # Category: Infrastructure Failure Patterns
 
+## Description
+These failures originate from the platform layer including compute, containers, nodes, networking, and operating systems. They are especially common in Kubernetes, cloud environments, and large-scale distributed systems.
+
 ---
 
 # 01. Pattern: CPU Starvation
