@@ -1,5 +1,8 @@
 # Category: Capacity & Performance Failure Patterns
 
+## Description
+These failures develop when systems gradually or suddenly exceed resource limits such as CPU, memory, disk, queues, or scaling boundaries. They often begin as slow degradation before escalating into full production incidents.
+
 ---
 
 # 01. Pattern: Slow Burn Capacity Exhaustion
