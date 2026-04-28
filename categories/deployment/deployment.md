@@ -1,5 +1,8 @@
 # Category: Deployment & Release Failure Patterns
 
+## Description
+These failures happen during code releases, infrastructure changes, CI/CD execution, and production rollouts. They include bad canaries, rollback failures, version drift, and deployment ordering issues that turn safe releases into outages.
+
 ---
 
 # 01. Pattern: Bad Canary Release
